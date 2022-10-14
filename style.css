@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    background: linear-gradient(270deg, #66B3FF 0%, #80D4FF 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 508px;
+    width: 840px;
+    margin-top: 170px;
+    background-color: rgba(245, 245, 245, .15);
+    border-radius: 25px;
+}
+
+.top-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.temp-info {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+}
+
+#temp {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    display: flex;
+    align-items: top;
+}
+
+#temp-sign {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 6px;
+}
+
+.loc-date-time {
+    margin-top: 50px;
+    margin-right: 65px;
+    display: flex;
+    text-align: right;
+}
+
+#location {
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 56px;
+}
+
+#date-time {
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.loc-date-time {
+    display: flex;
+    justify-content: right;
+    
+}
+
+#current-stats {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.weather-data {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.weather-data1 {
+    margin-left: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#data {
+    font-weight: bold;
+}
+
+.forecast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.wf1 {
+    width: 140px;
+    height: 175px;
+    background-color: rgba(245, 245, 245, .10);
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: center;
+    flex-direction: column;
+}
+
+.image-div {
+    /* you can use % */
+    display: flex;
+    vertical-align: center;
+    justify-items: center;
+}
+
+.day {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.high {
+    font-family: 'Inter';
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#low {
+    font-weight: 400;
+}
